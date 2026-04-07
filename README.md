@@ -1,6 +1,6 @@
 The stack that is being used: React (custom hooks, context, portals), Firebase (Firestore/auth), Compound & Styled components!
 
-Hey! I finally finished this Netflix clone (took me more time than I expected 😅). My idea was to make everything static (movies, series, tv shows, ...) but then I found this really cool TMDB API which you can pull most popular movies, top rated shows, what's trending, collections, lists and muuuch more. Really worth checking the effort made.
+Hey! I finally finished this Netflix clone. My idea was to make everything static (movies, series, tv shows, ...) but then I found this really cool TMDB API which you can pull most popular movies, top rated shows, what's trending, collections, lists and muuuch more. Really worth checking the effort made.
 
 First use the <b>Firebase App</b> api key of your's as the project's api keys has been removed and you can add them in /lib/firebase.prod.js file and <b>tmdb</b> api key also needs to be changed, which is present in request.js file under the project directory.
 
@@ -32,7 +32,6 @@ You will also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -41,8 +40,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
 
@@ -60,26 +57,3 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
